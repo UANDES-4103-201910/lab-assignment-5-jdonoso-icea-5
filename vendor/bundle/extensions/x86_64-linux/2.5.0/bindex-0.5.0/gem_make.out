@@ -1,0 +1,15 @@
+current directory: /home/billy/webtechlabs/lab-assignment-5-jdonoso-icea-5/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/home/billy/.rvm/rubies/ruby-2.5.1/bin/ruby -I /home/billy/.rvm/rubies/ruby-2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190410-12068-16xtu5v.rb extconf.rb
+creating Makefile
+
+current directory: /home/billy/webtechlabs/lab-assignment-5-jdonoso-icea-5/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/billy/webtechlabs/lab-assignment-5-jdonoso-icea-5/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/billy/webtechlabs/lab-assignment-5-jdonoso-icea-5/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20190410-12068-1od4703/bindex
