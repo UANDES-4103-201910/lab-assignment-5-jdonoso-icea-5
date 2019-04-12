@@ -161,3 +161,103 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 9ms (Views: 3.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users_controller" for 127.0.0.1 at 2019-04-11 18:35:20 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/users_controller"):
+  
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/gems/railties-5.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+vendor/bundle/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=jkn" for 127.0.0.1 at 2019-04-11 18:35:57 -0400
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"jkn"}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=jknx" for 127.0.0.1 at 2019-04-11 18:35:57 -0400
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"jknx"}
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=jkn" for 127.0.0.1 at 2019-04-11 18:35:59 -0400
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"jkn"}
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=jk" for 127.0.0.1 at 2019-04-11 18:36:00 -0400
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"jk"}
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=j" for 127.0.0.1 at 2019-04-11 18:36:01 -0400
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"j"}
+Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=l" for 127.0.0.1 at 2019-04-11 18:36:06 -0400
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"l"}
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users_controller/index" for 127.0.0.1 at 2019-04-11 18:39:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/users_controller/index"):
+  
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/gems/railties-5.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/gems/activesupport-5.2.3/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/gems/railties-5.2.3/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/gems/actionpack-5.2.3/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.2.3/lib/rails/engine.rb:524:in `call'
+vendor/bundle/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'

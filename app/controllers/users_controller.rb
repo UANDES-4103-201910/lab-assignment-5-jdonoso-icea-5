@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
   def create
     @user = User.create(params[:user])
   #@user.url = "#{@user.name}-#{@user.id}"

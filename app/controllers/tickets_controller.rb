@@ -2,6 +2,7 @@ class TicketsController < ApplicationController
   def create
     @ticket = Ticket.create(params[:ticket])
 
+
   end
 
   def update
